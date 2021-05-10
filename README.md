@@ -2,8 +2,8 @@
 
 Subsystem: Windows
 
-<h2>Installation and Setup</h2>: <br>
-  libcurl:
+<h2>Installation and Setup</h2> <br>
+  libcurl: <br>
   - Download curl: https://curl.haxx.se/download/curl-7.70.0.zip
   - Open Developer Command Prompt for Visual Studio 2019 -> Go to this directory -> C:\curl\winbuild\
   - Run nmake /f Makefile.vc mode=static. This will build curl as a static library into C:\curl\builds\libcurl-vc-x86-release-static-ipv6-sspi-winssl\
