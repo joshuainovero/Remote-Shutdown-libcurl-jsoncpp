@@ -3,7 +3,8 @@
 Subsystem: Windows
 
 <b>Setup</b>:
-  libcurl:
+<br>
+  libcurl: <br>
     - Download curl: https://curl.haxx.se/download/curl-7.70.0.zip
     - Open Developer Command Prompt for Visual Studio 2019 -> Go to this directory -> C:\curl\winbuild\
     - Run nmake /f Makefile.vc mode=static. This will build curl as a static library into C:\curl\builds\libcurl-vc-x86-release-static-ipv6-sspi-winssl\
@@ -12,7 +13,7 @@ Subsystem: Windows
     - Project Properties -> VC++ Directories -> Library Directories add C:\curl\builds\libcurl-vc-x86-release-static-ipv6-sspi-winssl\lib\ there
     - Project Properties -> Linker -> Input -> Additional Dependencies add libcurl_a.lib, Ws2_32.lib, Crypt32.lib, Wldap32.lib and Normaliz.lib
   
-  jsoncpp:
+  jsoncpp: <br>
     - Download jsoncpp: https://sourceforge.net/projects/jsoncpp/
     - Copy lib and include directory to your repository
     - Project Properties -> C/C++ -> Additional Include Directories -> Add the include file in jsoncpp
