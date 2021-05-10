@@ -13,7 +13,7 @@ Subsystem: Windows
   - Project Properties -> VC++ Directories -> Library Directories add C:\curl\builds\libcurl-vc-x86-release-static-ipv6-sspi-winssl\lib\ there
   - Project Properties -> Linker -> Input -> Additional Dependencies add libcurl_a.lib, Ws2_32.lib, Crypt32.lib, Wldap32.lib and Normaliz.lib
   
-  <br><br>
+  <br>
   
   jsoncpp:
   - Download jsoncpp: https://sourceforge.net/projects/jsoncpp/
