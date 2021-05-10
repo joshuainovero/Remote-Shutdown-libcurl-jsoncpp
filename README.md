@@ -2,7 +2,7 @@
 
 Subsystem: Windows
 
-Setup:
+<b>Setup</b>:
 
 - Download curl: https://curl.haxx.se/download/curl-7.70.0.zip
 - Open Developer Command Prompt for Visual Studio 2019 -> Go to this directory -> C:\curl\winbuild\
